@@ -1,0 +1,64 @@
+/* Reset básico */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    height: 100vh;
+    background-color: #f3f4f6;
+    font-family: Arial, sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .container {
+    background-color: white;
+    padding: 40px;
+    border-radius: 16px;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+    text-align: center;
+  }
+  
+  #contador {
+    font-size: 60px;
+    margin-bottom: 20px;
+    color: #111827;
+  }
+  
+  button {
+    padding: 12px 24px;
+    margin: 0 8px;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+  }
+  
+  #adicionar {
+    background-color: #10b981;
+    color: white;
+  }
+  #adicionar:hover {
+    background-color: #059669;
+  }
+  
+  #remover {
+    background-color: #ef4444;
+    color: white;
+  }
+  #remover:hover {
+    background-color: #dc2626;
+  }
+  
+  #resetar {
+    background-color: #3b82f6;
+    color: white;
+  }
+  #resetar:hover {
+    background-color: #2563eb;
+  }
+  
